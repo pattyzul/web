@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+</head>  
+ <body>
+ <div id="header">
+     <div class="container">
+        <div class="nav">
+            <img src="images/boo.jpg" class="boo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Activities">Activities</a></li>
+                <li><a href="#Certificates">Certificates</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </div>
+        <div class="header-text">
+            <p>Portfolio</p>
+            <h1>Hi,I'm <span>Patty</span><br>from Samutprakan<br>School</h1>
+        </div>
+     </div>
+ </div>
+ <!---------------about------------------------>
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/mu.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I was born in Mukdahan province at Nong Sung Hospital. My father's name is Somchai Boonkumnerd, and my mother's name is Nalinkarn Boonkumnerd. I have one sibling, a younger brother named Pruek Boonkumnerd. In primary school, I studied at Uthip School, and for lower secondary school, I studied at Samutprakan School. Currently, I am in Grade 12 at Samutprakan School.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>50%</li>
+                        <li><span>Html</span><br>55%</li>
+                        <li><span>Css</span><br>40%</li>
+                        <li><span>C</span><br>60%</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>27 novamber 2023</span><br>ICT Challenge at KMUTT</li>
+                        <li><span>25 january 2023</span><br>The 71th National Students Arts And Crafts Competition</li>
+                        <li><span>1 october 2024</span><br>Make Portfolio Web</li>
+                        <li><span>19 may 2023</span><br>42 Bangkok Hackathon</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2012-2018</span><br>Study At Uthip School</li>
+                        <li><span>2019 - 2021</span><br>Study at Samutprakan School</li>
+                        <li><span>2022-2024</span><br>Study at Samutprakan Schoo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+<!---------------activities---------------------->
+ <div id="Activities">
+    <div class="container">
+        <h1 class="sub-title">My Activities</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/S__29753349.jpg">
+                <div class="layer">
+                    <h3>42 BANGKOK HACKATHOM</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/S__29769739.jpg">
+                <h3>SCIENCE PROJECT</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29753350.jpg">
+                <h3>IT KMUTT OPEN HOUSE</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29753351.jpg">
+                <h3>CIRA CORE CAMP#3</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29753352.jpg">
+                <h3>SPU AI PROMT MINI HACKATHON</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29753353.jpg">
+                <h3>THE 71th NATIONAL STUDENTS ARTS AND CRAFTS COMPETITION</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29753354.jpg">
+                <h3>SPORTS DAY</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29753356.jpg">
+                <h3>MATH PROJECT</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29794333.jpg">
+                <h3>SCIENCE DAY</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29777923.jpg">
+                <h3>WORKSHOP AT FIET KMUTT</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29794330.jpg">
+                <h3>MC AT SCIENCE DAY</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29794331.jpg">
+                <h3>HISTORY MOVIE</h3>
+            </div>
+            <div class="work">
+                <img src="images/S__29794335.jpg">
+                <h3>ICT CHALLENGE 2023</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!---------------certificates---------------------->
+<div id="Certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/S__29794312.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794314.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794315.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794316.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794317.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794318.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794319.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794320.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794321.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794322.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794323.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794325.jpg">
+            </div>
+            <div class="work">
+                <img src="images/S__29794327.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------contact---------------------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact">
+                <h1 class="sub-title">Contact ME</h1>
+                <p><i class="fas fa-paper-plane"></i>pichayaboonkumnerd@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>091-880-5520</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100015489286424&mibextid=LQQJ4d"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/05febzul?igsh=MWY4aHg5dGV2dHNtZA=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://line.me/ti/p/DnY102FmFd"><i class="fab fa-line"></i></a>
+                </div>                                             
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Pichaya Boonkumnerd</p>
+    </div>
+</div>
+ <script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+     }
+
+ </script>
+
+ <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+</body>
+</html>
